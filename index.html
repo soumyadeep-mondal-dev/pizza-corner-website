@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Corner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <header class="bg-red-600 text-white fixed w-full shadow-md z-50">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <h1 class="text-2xl font-bold">🍕 Pizza Corner</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#home" class="hover:text-yellow-300">Home</a></li>
+                    <li><a href="#menu" class="hover:text-yellow-300">Menu</a></li>
+                    <li><a href="#about" class="hover:text-yellow-300">About</a></li>
+                    <li><a href="#contact" class="hover:text-yellow-300">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="bg-yellow-400 px-4 py-2 rounded-lg hover:bg-yellow-500">Order Now</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative h-screen flex items-center justify-center bg-cover bg-center text-white" style="background-image: url('hero-pizza.jpg');">
+        <div class="bg-black bg-opacity-50 p-10 text-center rounded-lg">
+            <h2 class="text-5xl font-bold">Savor Every Slice at Pizza Corner</h2>
+            <p class="text-lg mt-3">Fresh Ingredients. Authentic Taste. Delivered to Your Doorstep.</p>
+            <div class="mt-5">
+                <a href="#" class="bg-yellow-400 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-yellow-500">Order Now</a>
+                <a href="#menu" class="ml-4 border-2 border-yellow-400 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-yellow-400">View Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Specialties -->
+    <section id="menu" class="py-20 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-red-600">Our Best Pizzas</h2>
+            <p class="text-gray-600 mt-2">Taste the best pizzas made with love! 🍕</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
+                <div class="bg-gray-100 p-6 rounded-lg shadow">
+                    <img src="cheese-burst-pizza2.webp" alt="Pizza" class="w-full rounded-lg">
+                    <h3 class="text-xl font-semibold mt-4">Cheese Burst Pizza</h3>
+                    <p class="text-gray-500 mt-2">Loaded with extra cheese for the perfect bite.</p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow">
+                    <img src="peperoni.jpg" alt="Pizza" class="w-full rounded-lg">
+                    <h3 class="text-xl font-semibold mt-4">Pepperoni Delight</h3>
+                    <p class="text-gray-500 mt-2">A perfect blend of spice and taste.</p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow">
+                    <img src="Veggie_Supreme.webp" alt="Pizza" class="w-full rounded-lg">
+                    <h3 class="text-xl font-semibold mt-4">Veggie Supreme</h3>
+                    <p class="text-gray-500 mt-2">Loaded with fresh veggies and flavors.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="reviews" class="py-20 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-red-600">Customer Reviews</h2>
+            <p class="text-gray-600 mt-2">What our customers say about us! ❤️</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <p class="text-gray-500 italic">"The best pizza I've ever had! Fresh and delicious!"</p>
+                    <h3 class="mt-3 font-semibold">- Alex D.</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <p class="text-gray-500 italic">"Quick delivery and amazing flavors!"</p>
+                    <h3 class="mt-3 font-semibold">- Sarah L.</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <p class="text-gray-500 italic">"A must-try for every pizza lover!"</p>
+                    <h3 class="mt-3 font-semibold">- John M.</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-red-600">Contact Us</h2>
+            <p class="text-gray-600 mt-2">We’d love to hear from you! 📞</p>
+            <p class="mt-4 text-lg">📍 123 Pizza Street, Food Town, USA</p>
+            <p class="mt-2 text-lg">📧 Email: support@pizzacorner.com</p>
+            <p class="mt-2 text-lg">📞 Phone: +123 456 7890</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-red-600 text-white py-6 text-center">
+        <p>© 2025 Pizza Corner. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
