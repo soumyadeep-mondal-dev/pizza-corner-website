@@ -1,2 +1,2 @@
 # pizza-corner-website
-Frontend Website using HTML and CSS
+Frontend Website using HTML
